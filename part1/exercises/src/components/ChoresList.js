@@ -1,3 +1,5 @@
+import classes from './ChoresList.module.css';
+
 export default function ChoresList () {
-   return <p>No content is here!</p>;
+   return <p className={classes.choresText}>No content is here!</p>;
 }
