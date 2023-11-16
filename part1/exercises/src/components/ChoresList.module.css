@@ -3,10 +3,12 @@
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: 30px;
    font-style: italic;
-   text-decoration: underline;
+   text-align: left;
    
 }
 
 .choresHeading {
    color: black;
+   text-align: left;
+   text-decoration: underline;
 }
