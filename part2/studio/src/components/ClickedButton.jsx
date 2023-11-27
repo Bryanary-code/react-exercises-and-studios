@@ -1,5 +1,13 @@
+import "./styling.css";
+import recipedata from "./recipe.json";
+
 function ClickedButton() {
-  return;
+  function handleClick() {
+    alert("pin has been saved and removed from the board")
+  }
+
+  return (
+  <button id="clickedButton" onClick = {handleClick}>Saved</button> );
 }
 
 export default ClickedButton;

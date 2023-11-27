@@ -1,3 +1,5 @@
+import recipedata from "./recipe.json";
+
 function RecipeImage() {
    return;
  }
