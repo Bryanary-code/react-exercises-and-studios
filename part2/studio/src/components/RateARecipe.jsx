@@ -5,7 +5,7 @@ function RateARecipe(props) {
     return <h3>{stars[props.rating - 1]}</h3>;
  }
  let isValid = (props.rating > 0 && props.rating < 6)
-  return isValid ? <GiveRating /> : alert("fuck you man...you know the rules!") ;
+  return isValid ? <GiveRating /> : alert("C'mon now...you know the rules") ;
 }
 
 export default RateARecipe;
