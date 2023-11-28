@@ -18,7 +18,7 @@ function App() {
     <>
       <RecipeImage />
       <RecipeName />
-      <RateARecipe rating={8} />
+      <RateARecipe rating={4} />
       <Button saveButton={true} />
       <AuthorInfo />
       <IngredientList />
